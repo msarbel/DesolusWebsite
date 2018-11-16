@@ -1,3 +1,5 @@
+// parallax
+
 window.addEventListener('scroll', function(event) {
     const topDistance = this.pageYOffset; 
     const layers = document.querySelectorAll("[data-type='parallax']");
@@ -14,7 +16,9 @@ window.addEventListener('scroll', function(event) {
     }
   });
 
-  window.onscroll = function(){
+  // navigation
+
+window.onscroll = function(){
     scrollFunction()
 }
 function scrollFunction(){
@@ -46,8 +50,7 @@ function openMenu(){
     document.getElementById("btnMenu").getElementsByTagName("i")[1].classList.toggle("visible")
 }
 
-// Immediately Invoked Function Expression
-// IIFE
+// gallery 
 
 (function () {
     var galleryLightbox = document.querySelector('.gallery-lightbox');

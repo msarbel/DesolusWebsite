@@ -443,8 +443,8 @@ blockquote {
     margin-left: 20px !important;
     margin-top: 10px !important;
 }
-.cite-lg {
-}
+/* .cite-lg {
+} */
 cite {
     color: #CCC;
 }
@@ -557,7 +557,7 @@ cite {
     top: 20vh;
     width: 70vw;
     height: 60vh;
-    background-color: ;
+    /* background-color: ; */
 }
 
 .gallery-button-close {
@@ -643,7 +643,7 @@ cite {
     top: 20vh;
     width: 70vw;
     height: 60vh;
-    background-color: ;
+    /* background-color: ; */
 }
 
 .gallery-button-close {
