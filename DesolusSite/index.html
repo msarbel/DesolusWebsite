@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link type="text/css" rel="stylesheet" href="vendors/css/materialize.min.css"  media="screen,projection"/>
+        <link rel="stylesheet" type="text/css" href="vendors/css/simple-grid.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700|Raleway:300,400,400i,500" rel="stylesheet">        
+
+    <title>Desolus</title>
+</head>
+<body>
+        <nav id="sticky_nav">
+                <div class="navBar_left">
+                    <a class="home" href="#" target="blank_">
+                        <i class="fa fa-home"></i>
+                    </a>
+                    <button id="btnMenu" onclick="openMenu()">
+                        <i class="fa fa-bars"></i>
+                        <i class="fa fa-close"></i>
+                    </button>
+                </div>
+                <div class="navBar_menu" id="thisMenu">
+                    <div class="navBar_list">
+                        <button class="btnList" onclick="openList('1')">
+                            <span class="drop"><a href="https://forums.tigsource.com/index.php?topic=44451.0">Devlog</a></span>
+                            <span class="acc"><a href="https://forums.tigsource.com/index.php?topic=44451.0">Devlog</a></span>
+                        </button>
+                    </div>
+                    <div class="navBar_list">
+                        <button class="btnList" onclick="openList('2')">
+                            <span class="drop"><a href="https://twitter.com/DesolusDev">Twitter</a></span>
+                            <span class="acc"><a href="https://twitter.com/DesolusDev">Twitter</a></span>
+                        </button>
+                    </div>
+                    <div class="navBar_list">
+                        <button class="btnList" onclick="openList('3')">
+                            <span class="drop"><a href="https://www.facebook.com/desolusthegame/">Facebook</a></span>
+                            <span class="acc"><a href="https://www.facebook.com/desolusthegame/">Facebook</a></span>
+                        </button>
+                    </div>
+                    <div class="navBar_list">
+                        <button class="btnList" onclick="openList('4')">
+                            <span class="drop"><a href="http://www.desolus.com/press/index.html">Press</a></span>
+                            <span class="acc"><a href="http://www.desolus.com/press/index.html">Press</a></span>
+                        </button>
+                    </div>
+                    <div class="navBar_list">
+                        <button class="btnList" onclick="openList('5')">
+                            <span class="drop"><a href="mailto:mayers@desolus.com">Contact</a></span>
+                            <span class="acc"><a href="mailto:mayers@desolus.com">Contact</a></span>
+                        </button>
+                    </div>
+                </div>
+                
+            </nav>
+    <div id="hero">
+            <div class="layer-bg layer" data-type="parallax" data-depth=".1"></div>
+            <div class="layer-1 layer" data-type="parallax" data-depth="0.20"></div>
+            <div class="layer-2 layer" data-type="parallax" data-depth="0.50"></div>
+            <div class="layer-3 layer" data-type="parallax" data-depth="0.80"></div>
+            <div class="layer-4 layer" data-type="parallax" data-depth="1.00"></div>
+        </div>
+        <div id="hero-mobile"></div>
+        <div id="content">
+            <div class="container">
+            <section class="first-section">
+                <div class="row">
+                <div class="col-12">
+
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <a href="#">
+                                <i class="fab fa-steam"></i>
+                        </a>
+                        <hr />
+                        <a href="#" class="steam-btn"> BUY ON STEAM</a>
+                    </div>
+                    <div class="col-6">
+                            <i class="fab fa-windows"></i>
+                        <hr />
+                        <a href="#" class="steam-btn">AVAILABLE ON WINDOWS</a>
+                    </div>
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-12">
+                    <div class="resp-container">
+                        <iframe class="resp-iframe" width="560" height="315" src="https://www.youtube.com/embed/q450Objbycw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="about">
+                        <h3>About</h3>
+                            <p>Desolus is a first person puzzle game created solely by Mark J. Mayers, with music by pianist Kyle Landry.</p>
+                            <p>Harness black holes to solve surreal puzzles, and traverse desolate architecture torn between dimensions. </p>
+                            <p>With reality collapsing, you must embrace the impossible to learn the truth.</p>
+                            <p>Experience Desolus on PC, or also with Virtual Reality.</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+            </section>
+            <section class="section-gate">
+                    <div class="inside-gate"></div>
+            </section>
+            <section class="section-awards">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Awards</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <blockquote class="award-lg">
+                                “The production value is astounding for an Indie team of one, and it’s clear Mark Mayers has been pouring his heart and soul into this project since he began."
+                                <cite class="cite-lg">-Seven DeBord<img class="award-lg--img" src="vendors/images/awards/INDIEHANGOVER.png" alt="Indie Hangover"></cite>
+                            </blockquote>
+                            
+                        </div>
+                    </div>
+                <div class="row">
+                    <div class="stepper">
+                    <div class="col-4">
+                        <div class="step">
+                            <p class="step-title"><img src="vendors/images/awards/bostonfiglogo.png" alt="MAGfest"></p>
+                                <blockquote>
+                                    "Official Selection, Digital Game Showcase"<br>
+                                    <cite>Boston Festival of Indie Games, September 2016, 2015</cite>
+                                </blockquote>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="step">
+                            <p class="step-title"><img src="vendors/images/awards/logo_magfest.png" alt="MAGfest"></p>
+                            <blockquote>
+                                    "Nominated, Best Art &#43; Best Soundtrack"<br>
+                                    <cite>MAGFest - January 2018</cite>
+                                </blockquote>                    
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="step">
+                            <p class="step-title"><img src="vendors/images/awards/megabooth.png" alt="MAGfest"></p>
+                            <blockquote>
+                                    "Official Selection, Indie MEGABOOTH"<br>
+                                    <cite>PAX East, April 2016</cite>
+                                </blockquote>                    
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="gallery">
+                    <a name="portfolio"></a>
+                    <section class="portfolio-container">
+                        <div class="portfolio-content">
+                            <div class="row">
+                                <img  class="gallery-item" 
+                                        src="vendors/images/HIGH_RES_IMAGES/2018_06_06_Pitch2.png" 
+                                        gallery-full-image="vendors/images/HIGH_RES_IMAGES/2018_06_06_Pitch2.png" 
+                                        alt="Logo-Design für die Firma xy"/>
+                                <img  class="gallery-item" 
+                                        src="vendors/images/HIGH_RES_IMAGES/2018_06_06_Pitch3.png" 
+                                        gallery-full-image="vendors/images/HIGH_RES_IMAGES/2018_06_06_Pitch3.png" 
+                                        alt="Logo-Design für die Firma xy"/>
+                                <img  class="gallery-item" 
+                                        src="vendors/images/HIGH_RES_IMAGES/2018_06_10_Pitch4B.png" 
+                                        gallery-full-image="vendors/images/HIGH_RES_IMAGES/2018_06_10_Pitch4B.png" 
+                                        alt="Logo-Design für die Firma xy"/>
+                                <img  class="gallery-item" 
+                                        src="vendors/images/HIGH_RES_IMAGES/2018_06_10_Pitch4C.png" 
+                                        gallery-full-image="vendors/images/HIGH_RES_IMAGES/2018_06_10_Pitch4C.png" 
+                                        alt="Logo-Design für die Firma xy"/>
+                                <img  class="gallery-item" 
+                                        src="vendors/images/HIGH_RES_IMAGES/2018_06_06_Pitch2.png" 
+                                        gallery-full-image="vendors/images/HIGH_RES_IMAGES/2018_06_06_Pitch2.png" 
+                                        alt="Logo-Design für die Firma xy"/>
+                                <img  class="gallery-item" 
+                                        src="vendors/images/HIGH_RES_IMAGES/2018_06_06_Pitch3.png" 
+                                        gallery-full-image="vendors/images/HIGH_RES_IMAGES/2018_06_06_Pitch3.png" 
+                                        alt="Logo-Design für die Firma xy"/>
+                                <img  class="gallery-item" 
+                                        src="vendors/images/HIGH_RES_IMAGES/2018_06_10_Pitch4B.png" 
+                                        gallery-full-image="vendors/images/HIGH_RES_IMAGES/2018_06_10_Pitch4B.png" 
+                                        alt="Logo-Design für die Firma xy"/>
+                                <img  class="gallery-item" 
+                                        src="vendors/images/HIGH_RES_IMAGES/2018_06_10_Pitch4C.png" 
+                                        gallery-full-image="vendors/images/HIGH_RES_IMAGES/2018_06_10_Pitch4C.png" 
+                                        alt="Logo-Design für die Firma xy"/>
+
+                        <div class="gallery-lightbox">
+                            <div class="gallery-content">
+                            <button class="gallery-button-close">+</button>
+                            <button class="gallery-button-previous">&lt;</button>
+                            <button class="gallery-button-next">&gt;</button>
+                            <ol class="gallery-navigation"></ol>
+                            </div>
+                        </div>
+                    </section>
+            </section>
+            <footer>
+                <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <h2>Where to Buy</h2>
+                        <p>
+                                <a href="#">
+                                        <i class="fab fa-steam"></i>
+                                </a>
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <h2>Copyright</h2>
+                        <p>Mark Mayers</p>
+                        <p>2018</p>
+                    </div>
+                    <div class="col-4">
+                        <h2>Website Design</h2>
+                        <p>Michael Sarbello</p>
+                    </div>
+                </div>
+                </div>
+            </footer>
+            </div>
+
+            <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>    
+        <script src="main.js"></script>
+    </body>
+</html>
